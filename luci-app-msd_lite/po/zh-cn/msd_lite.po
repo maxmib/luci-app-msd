@@ -1,0 +1,15 @@
+
+msgid "auto"
+msgstr "自动"
+
+msgid "Max CPU threads"
+msgstr " CPU 线程"
+
+msgid "Source Interface"
+msgstr "源 IP/接口"
+
+msgid "CONFIG"
+msgstr "配置"
+
+msgid "msd_lite is a UDP-to-HTTP multicast traffic relay daemon, here you can configure the settings."
+msgstr "msd_lite 是一个 UDP 到 HTTP 多播流量中继守护进程，在这里你可以配置设置。"

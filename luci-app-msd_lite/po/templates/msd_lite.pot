@@ -3,27 +3,27 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:18
 msgid "Add instance"
-msgstr "添加实例"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:24
 msgid "Bind address"
-msgstr "绑定地址"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:38
 msgid "Bind threads to CPUs"
-msgstr "CPU线程"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:41
 msgid "Disconnect slow clients"
-msgstr "断开慢速客户端"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:20
 msgid "Enable"
-msgstr "启用"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:29
 msgid "For multicast receive."
-msgstr "多播接收"
+msgstr ""
 
 #: applications/luci-app-msd_lite/root/usr/share/rpcd/acl.d/luci-app-msd_lite.json:3
 msgid "Grant UCI access for luci-app-msd_lite"
@@ -31,51 +31,51 @@ msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:34
 msgid "Leave 0 or <em>empty</em> to auto detect."
-msgstr "保留0或空以自动检测"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:12
 #: applications/luci-app-msd_lite/root/usr/share/luci/menu.d/luci-app-msd_lite.json:3
 msgid "Multi Stream daemon Lite"
-msgstr "msd_lite"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:54
 msgid "Multicast receive socket buffer size."
-msgstr "多播接收套接字缓冲区大小"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:59
 msgid "Multicast receive timeout."
-msgstr "组播接收超时"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:44
 msgid "Pre cache size"
-msgstr "预缓存大小"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:53
 msgid "Receive buffer size"
-msgstr "环形缓冲区大小"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:58
 msgid "Receive timeout"
-msgstr "接收超时"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:48
 msgid "Ring buffer size"
-msgstr "环形缓冲区大小"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:28
 msgid "Source interface"
-msgstr "源 IP/接口"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:49
 msgid "Stream receive ring buffer size."
-msgstr "流接收环缓冲区大小"
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:13
 msgid ""
 "The lightweight version of Multi Stream daemon (msd) Program for organizing "
-"IPTV streaming on the network via HTTP."
-msgstr "轻量级版本的多流守护进程(msd)程序的组织"
+"IP TV streaming on the network via HTTP."
+msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:33
 msgid "Worker threads"
-msgstr "工作线程"
+msgstr ""

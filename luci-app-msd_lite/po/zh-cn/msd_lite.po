@@ -74,7 +74,7 @@ msgstr "流接收环缓冲区大小"
 msgid ""
 "The lightweight version of Multi Stream daemon (msd) Program for organizing "
 "IPTV streaming on the network via HTTP."
-msgstr "轻量级版本的多流守护进程(msd)程序的组织"
+msgstr "轻量级版本的多流守护进程(msd)程序"
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:33
 msgid "Worker threads"

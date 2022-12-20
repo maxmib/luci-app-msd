@@ -23,7 +23,7 @@ msgstr "启用"
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:29
 msgid "For multicast receive."
-msgstr "多播接收"
+msgstr ""
 
 #: applications/luci-app-msd_lite/root/usr/share/rpcd/acl.d/luci-app-msd_lite.json:3
 msgid "Grant UCI access for luci-app-msd_lite"

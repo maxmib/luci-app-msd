@@ -10,7 +10,7 @@ return view.extend({
 		var m, s, o;
 
 		m = new form.Map('msd_lite', _('Multi Stream daemon Lite'),
-			_('The lightweight version of Multi Stream daemon (msd) Program for organizing IP TV streaming on the network via HTTP.'));
+			_('The lightweight version of Multi Stream daemon (msd) Program for organizing IPTV streaming on the network via HTTP.'));
 
 		s = m.section(form.TypedSection, 'instance');
 		s.anonymous = true;
@@ -24,6 +24,15 @@ return view.extend({
 		o = s.option(form.DynamicList, 'address', _('Bind address'));
 		o.datatype = 'ipaddrport(1)';
 		o.rmempty = false;
+
+		o = s.option(form.Button, 'view_button', _('后台'));
+                o.inputtitle = "测试";
+                o.onclick = function(section_id) {
+                 var address = '10.0.0.1:1234'; // 将“IP”替换为您手动定义的IP地址
+                  //var address = this.section.formvalue(section_id, 'address');
+                 window.open('http://' + address + '/stat', '_blank');
+                            };
+
 
 		o = s.option(widgets.DeviceSelect, 'interface', _('Source interface'),
 			_('For multicast receive.'));

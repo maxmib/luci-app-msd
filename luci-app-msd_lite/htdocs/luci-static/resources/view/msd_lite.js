@@ -10,7 +10,7 @@ return view.extend({
 		var m, s, o;
 
 		m = new form.Map('msd_lite', _('Multi Stream daemon Lite'),
-			_('The lightweight version of Multi Stream daemon (msd) Program for organizing IPTV streaming on the network via HTTP.'));
+			_('The lightweight version of Multi Stream daemon (msd) Program for organizing IP TV streaming on the network via HTTP.'));
 
 		s = m.section(form.TypedSection, 'instance');
 		s.anonymous = true;
@@ -32,7 +32,6 @@ return view.extend({
                   //var address = this.section.formvalue(section_id, 'address');
                  window.open('http://' + address + '/stat', '_blank');
                             };
-
 
 		o = s.option(widgets.DeviceSelect, 'interface', _('Source interface'),
 			_('For multicast receive.'));

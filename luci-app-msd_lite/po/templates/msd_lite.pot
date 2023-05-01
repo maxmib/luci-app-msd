@@ -79,9 +79,7 @@ msgid "Stream receive ring buffer size."
 msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:13
-msgid ""
-"The lightweight version of Multi Stream daemon (msd) Program for organizing "
-"IP TV streaming on the network via HTTP."
+msgid "The lightweight version of Multi Stream daemon (msd) Program for organizing IPTV streaming on the network via HTTP."
 msgstr ""
 
 #: applications/luci-app-msd_lite/htdocs/luci-static/resources/view/msd_lite.js:34

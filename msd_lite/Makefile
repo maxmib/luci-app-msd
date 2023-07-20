@@ -5,7 +5,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=msd_lite
-PKG_RELEASE:=2
+PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/rozhuk-im/msd_lite.git
@@ -23,7 +23,7 @@ include $(INCLUDE_DIR)/cmake.mk
 define Package/msd_lite
   SECTION:=net
   CATEGORY:=Network
-  TITLE:=Program for IP TV streaming on the network via HTTP
+  TITLE:=Program for IPTV streaming on the network via HTTP
   URL:=http://www.netlab.linkpc.net/wiki/ru:software:msd:lite
 endef
 

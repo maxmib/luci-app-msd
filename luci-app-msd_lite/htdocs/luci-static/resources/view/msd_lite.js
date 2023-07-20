@@ -28,16 +28,15 @@ return view.extend({
 		o = s.option(form.Button, 'view_button', _('组播后台'));
 		o.inputtitle = "web Server";
 		o.onclick = function () {
-		 var addressElement = document.querySelector('#cbid\\.msd_lite\\.cfg0121da\\.address .item input[type="hidden"]');
-         if (addressElement) {
-		 var address = addressElement.value;
-		 window.open('http://' + address + '/stat', '_blank');
-	               }
+		var addressElement = document.querySelector('#cbid\\.msd_lite\\.cfg0121da\\.address .item input[type="hidden"]');
+		if (addressElement) {
+		var address = addressElement.value;
+		window.open('http://' + address + '/stat', '_blank');
+		    }
 		};
-
-		o = s.option(widgets.DeviceSelect, 'interface', _('Source interface'),
+		
+		o = s.option(widgets.NetworkSelect, 'network', _('Source interface'),
 			_('For multicast receive.'));
-		o.noaliases = true;
 		o.nocreate = true;
 		o.optional = true;
 

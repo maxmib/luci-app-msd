@@ -25,13 +25,15 @@ return view.extend({
 		o.datatype = 'ipaddrport(1)';
 		o.rmempty = false;
 
-		o = s.option(form.Button, 'view_button', _('后台'));
-                o.inputtitle = "测试";
-                o.onclick = function(section_id) {
-                 var address = '10.0.0.1:1234'; // 将“IP”替换为您手动定义的IP地址
-                  //var address = this.section.formvalue(section_id, 'address');
-                 window.open('http://' + address + '/stat', '_blank');
-                            };
+		o = s.option(form.Button, 'view_button', _('组播后台'));
+		o.inputtitle = "web Server";
+		o.onclick = function () {
+		 var addressElement = document.querySelector('#cbid\\.msd_lite\\.cfg0121da\\.address .item input[type="hidden"]');
+         if (addressElement) {
+		 var address = addressElement.value;
+		 window.open('http://' + address + '/stat', '_blank');
+	               }
+		};
 
 		o = s.option(widgets.DeviceSelect, 'interface', _('Source interface'),
 			_('For multicast receive.'));
